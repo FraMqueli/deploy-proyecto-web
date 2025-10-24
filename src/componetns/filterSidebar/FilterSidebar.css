@@ -1,0 +1,48 @@
+.landing-sidebar {
+  width: 250px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 1rem;
+  align-self: flex-start;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.landing-sidebar.closed {
+  width: 0; /* colapsa */
+}
+
+.sidebar-content {
+  opacity: 1;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateX(0);
+}
+
+.sidebar-content.hidden {
+  opacity: 0;
+  transform: translateX(-20px);
+  pointer-events: none;
+}
+
+/* Botón flotante sobre todo */
+.toggle-sidebar {
+  position: fixed; /* siempre visible */
+  top: 6rem;
+  width: 2rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  border: 1px solid #d1d5db;
+  background-color: #6b7280;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.875rem;
+  z-index: 9999;
+  transition: left 0.3s ease;
+}

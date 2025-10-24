@@ -1,0 +1,81 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100vw;
+    background-color: #b5b5b5;
+}
+
+
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    padding: 40px 30px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.logo-login {
+  width: 100px;
+}
+
+.linea-divisoria {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #d9d9d9;
+    margin: 10px 0 20px 0;
+}
+
+
+.formulario label:first-of-type {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+.boton-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #b5b5b5; 
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.boton-login:hover {
+    background-color: #a0a0a0;
+}
+
+
+.info-login {
+    font-size: 12px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.titulo-bienvenido {
+    font-weight: bold;
+}
+
+.instrucciones {
+    font-size: 15px;
+}

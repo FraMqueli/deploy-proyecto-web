@@ -1,0 +1,22 @@
+/* LandingPage.css */
+@import "tailwindcss";
+
+.landing-container {
+  @apply min-h-screen bg-gray-50;
+}
+
+.landing-main {
+  @apply w-full px-4 py-6 min-h-screen;
+}
+
+.landing-section {
+  @apply mb-8;
+}
+
+.landing-products-title {
+  @apply text-2xl font-bold text-gray-900 mb-6;
+}
+
+.landing-products-grid {
+  @apply grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4;
+}

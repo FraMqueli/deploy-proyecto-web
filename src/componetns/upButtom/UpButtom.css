@@ -1,0 +1,21 @@
+.up-button {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #6b7280; /* gris */
+  border-radius: 9999px; /* redondo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+  z-index: 9999; /* se superpone a todo */
+}
+
+.up-button:hover {
+  background-color: #4b5563; /* gris más oscuro */
+}
