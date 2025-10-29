@@ -18,7 +18,7 @@ const teamMembers: TeamMember[] = [
     role: "Desarrollador Frontend",
     description:
       "Estudiante de 7mo año, Major Robótica, Minor Computación. Práctico judo",
-    image: "./../../../public/avataresAboutUs/mario_avatar.jpg",
+    image: "./../../public/avataresAboutUs/mario_avatar.jpg",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const teamMembers: TeamMember[] = [
     role: "Desarrollador Backend",
     description:
       "Estudiante de 3er año, Major computación, Minor Data science y analytics. Me gusta gorillaz (no sé nota)",
-    image: "./../../../public/avataresAboutUs/felipe_avatar.jpg",
+    image: "./../../public/avataresAboutUs/felipe_avatar.jpg",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const teamMembers: TeamMember[] = [
     role: "Desarrollador Fullstack",
     description:
       "Estudiante de 7mo año, Major Física, Minor Computación. Lo juro no soy otaku",
-    image: "./../../../public/avataresAboutUs/franco_avatar.jpg",
+    image: "./../../public/avataresAboutUs/franco_avatar.jpg",
   },
 ];
 
